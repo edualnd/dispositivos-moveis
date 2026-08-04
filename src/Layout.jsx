@@ -2,12 +2,12 @@ import { TabletSmartphone } from "lucide-react-native";
 import { Text, View } from "react-native";
 export default function Layout({ children }) {
   return (
-    <View className="bg-gray-200 flex-1 flex flex-col">
+    <View className="bg-gray-200 flex-1 flex flex-col ">
       {/* Header */}
-      <View className="bg-black w-screen h-14 p-2 flex flex-row gap-3 items-center">
+      <View className="bg-black w-screen h-14 p-2 flex flex-row gap-3 items-center justify-center">
         <TabletSmartphone color={"white"} size={44} />
         <Text className="text-white font-bold text-xl">
-          Desenvolvimento para dispositivos móveis
+          Desenvolvimento Mobile
         </Text>
       </View>
       {/* Main */}

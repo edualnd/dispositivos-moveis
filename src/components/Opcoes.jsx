@@ -21,12 +21,12 @@ export default function Opcoes() {
   return (
     <View className="flex-1">
       <FlatList
-        contentContainerClassName="p-5 flex-row gap-4 items-center justify-center"
+        contentContainerClassName="p-5 gap-4 items-center justify-center"
         data={opcoes}
         renderItem={({ item }) => (
-          <View className="bg-gray-300 rounded-2xl w-60 h-30 gap-2 flex  flex-row justify-center items-center">
+          <View className="drop-shadow-black/50 drop-shadow-sm bg-gray-300 rounded-2xl w-70 h-30 gap-2 flex  flex-row justify-center items-center">
             <Image
-              className="w-12 h-12 rounded-full"
+              className="w-16 h-16 rounded-full"
               source={{ uri: item.avatar }}
             ></Image>
             <View>
