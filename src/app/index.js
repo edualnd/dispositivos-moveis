@@ -1,12 +1,13 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import "./global.css";
-import Layout from "./src/layout/Layout";
-import Opcoes from "./src/components/Opcoes";
+import "./../../global.css";
+import Layout from "../layout/Layout";
+import Opcoes from "../components/Opcoes";
+
 export default function App() {
   return (
     <Layout>
-      <Opcoes/>
+      <Opcoes />
     </Layout>
   );
 }
